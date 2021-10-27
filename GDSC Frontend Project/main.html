@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Review Website</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+	<script src="edit.js"></script>
+        <!-- header start -->
+        <div id="header" class="section">
+            <img src="imdb.jpg" alt="IMDb">
+            <p>Top 10 Rated Movies by IMDb</p>
+        </div>
+        <!-- header end -->
+        
+        
+        <!-- Movie List section start -->
+        <div class="section">
+            	<!-- Tab links -->
+		<div class="tab">
+  			<button class="tablinks" onclick="openCity(event, 'Movie 1')">Movie 1</button>
+  			<button class="tablinks" onclick="openCity(event, 'Movie 2')">Movie 2</button>
+  			<button class="tablinks" onclick="openCity(event, 'Movie 3')">Movie 3</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 4')">Movie 4</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 5')">Movie 5</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 6')">Movie 6</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 7')">Movie 7</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 8')">Movie 8</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 9')">Movie 9</button>
+			<button class="tablinks" onclick="openCity(event, 'Movie 10')">Movie 10</button>
+		</div>
+
+		<!-- Tab content -->
+		<div id="Movie 1" class="tabcontent">
+  			<h3>The Shawshank Redemption (1994)</h3>
+       	  		<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Shawshank Redemption.jpg" height="220" width="150"></p>
+  				<p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p></br>
+				<p>Director : Frank Darabont</p>
+				<p>Writers : Stephen King (based on the short novel "Rita Hayworth and the Shawshank Redemption" by), Frank Darabont (screenplay by)</p>
+				<p>Stars : Tim Robbins, Morgan Freeman, Bob Gunton</p>
+            			<br/>
+				<p>Rating</p>
+                		<p>9.2/10</p>
+                    			<progress min="0" max="100" value="92"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 2" class="tabcontent">
+  			<h3>The Godfather (1972)</h3>
+       	  		<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Godfather.jpg" height="220" width="150"></p>
+  				<p>The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.</p></br>
+				<p>Director : Francis Ford Coppola</p>
+				<p>Writers : Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by)</p>
+				<p>Stars : Marlon Brando, Al Pacino, James Caan</p>
+            			<br/>
+				<p>Rating</p>
+                		<p>9.1/10</p>
+                    			<progress min="0" max="100" value="91"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 3" class="tabcontent">
+  			<h3>The Godfather Part II (1974)</h3>
+       	  		<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Godfather Part II.jpg" height="220" width="150"></p>
+  				<p>The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.</p></br>
+				<p>Director : Francis Ford Coppola</p>
+				<p>Writers : Mario Puzo (screenplay by), Francis Ford Coppola (screenplay by)</p>
+				<p>Stars : Al Pacino, Robert De Niro, Robert Duvall</p>
+            			<br/>
+				<p>Rating</p>
+                		<p>9.0/10</p>
+                    			<progress min="0" max="100" value="90"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 4" class="tabcontent">
+  			<h3>The Dark Knight (2008)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Dark Knight.jpg" height="220" width="150"></p>
+  				<p>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p></br>
+				<p>Director : Christoper Nolan</p>
+				<p>Writers : Jonathan Nolan (screenplay), Christopher Nolan (screenplay), David S. Goyer (story)</p>
+				<p>Stars : Christian Bale, Heath Ledger, Aaron Eckhart</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>9.0/10</p>
+                    			<progress min="0" max="100" value="90"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 5" class="tabcontent">
+  			<h3>12 Angry Men (1957)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="12 Angry Men.jpg" height="220" width="150"></p>
+  				<p>The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.</p></br>
+				<p>Director : Sidney Lumet</p>
+				<p>Writers : Reginald Rose(story)</p>
+				<p>Stars : Henry Fonda, Lee J. Cobb, Martin Balsam</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.9/10</p>
+                    			<progress min="0" max="100" value="89"></progress>
+        		</div>
+		</div>
+		
+		<div id="Movie 6" class="tabcontent">
+  			<h3>Schindler's List (1993)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="Schindler's List.jpg" height="220" width="150"></p>
+  				<p>In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.</p></br>
+				<p>Director : Steven Spielberg</p>
+				<p>Writers : Thomas Keneally(book), Steven Zaillian(screenplay)</p>
+				<p>Stars : Liam Neeson, Ralph Fiennes, Ben Kingsley</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.9/10</p>
+                    			<progress min="0" max="100" value="89"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 7" class="tabcontent">
+  			<h3>The Lord of the Rings: The Return of the King (2003)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Lord of the Rings-The Return of the King.jpg" height="220" width="150"></p>
+  				<p>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</p></br>
+				<p>Director : Peter Jackson</p>
+				<p>Writers : J.R.R. Tolkien (novel "The Return of the King"), Fran Walsh(screenplay), Philippa Boyens(screenplay)</p>
+				<p>Stars : Elijah Wood, Viggo Mortensen, Ian McKellen</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.9/10</p>
+                    			<progress min="0" max="100" value="89"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 8" class="tabcontent">
+  			<h3>Pulp Fiction (1994)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="Pulp Fiction.jpg" height="220" width="150"></p>
+  				<p>The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p></br>
+				<p>Director : Quentin Tarantino</p>
+				<p>Writers : Quentin Tarantino(stories by), Roger Avary(stories by)</p>
+				<p>Stars : John Travolta, Uma Thurman, Samuel L. Jackson</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.8/10</p>
+                    			<progress min="0" max="100" value="88"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 9" class="tabcontent">
+  			<h3>The Good, the Bad and the Ugly (1966)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Good, the Bad and the Ugly.jpg" height="220" width="150"></p>
+  				<p>A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.</p></br>
+				<p>Director : Sergio Leone</p>
+				<p>Writers : Luciano Vincenzoni(story), Sergio Leone(story), Agenore Incrocci(screenplay)</p>
+				<p>Stars : Clint Eastwood, Eli Wallach, Lee Van Cleef</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.8/10</p>
+                    			<progress min="0" max="100" value="88"></progress>
+        		</div>
+		</div>
+
+		<div id="Movie 10" class="tabcontent">
+  			<h3>The Lord of the Rings: The Fellowship of the Ring (2001)</h3>
+  			<div style="clear: left;">
+    				<p style="padding-right: 10px; float: left;"><img src="The Lord of the Rings-The Fellowship of the Ring.jpg" height="220" width="150"></p>
+  				<p>A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.</p></br>
+				<p>Director : Peter Jackson</p>
+				<p>Writers : J.R.R. Tolkien(novel "The Fellowship of the Ring"), Fran Walsh(screenplay), Philippa Boyens(screenplay)</p>
+				<p>Stars : Elijah Wood, Ian McKellen, Orlando Bloom</p> 
+            			<br/>
+				<p>Rating</p>
+                		<p>8.8/10</p>
+                    			<progress min="0" max="100" value="88"></progress>
+        		</div>
+		</div>
+	</div>
+        <!-- Movie List section end -->
+        
+	
+<div class="copyright">
+
+            &copy; 2021 Made by Michael Leon
+
+        </div>
+
+
+
+    </body>
+</html>
